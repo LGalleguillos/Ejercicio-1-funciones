@@ -22,7 +22,7 @@ public class Ejer1Func {
 	} //esta es la funcion
 	static int Ejer(int x, int y){
 		int resp=x;
-		for(int i =0;i<y-1;i++){ //multiplicara el numero por si mismo tantas veces como sea el valor de y-1
+		for(int i =1;i<y;i++){ //multiplicara el numero por si mismo tantas veces como sea el valor de y
 			resp=resp*x;
 		}return resp;
 	}
